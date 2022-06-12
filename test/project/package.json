@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "dev": "eleventy --incremental --serve",
+    "build": "eleventy"
+  }
+}
