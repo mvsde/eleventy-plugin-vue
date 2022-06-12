@@ -1,0 +1,18 @@
+{
+	"root": true,
+	"extends": [
+		"plugin:vue/vue3-recommended",
+		"eslint-config-standard"
+	],
+	"plugins": [
+		"eslint-plugin-simple-import-sort"
+	],
+	"rules": {
+		"indent": ["error", "tab"],
+		"no-tabs": "off",
+		"simple-import-sort/exports": "error",
+		"simple-import-sort/imports": "error",
+		"vue/html-indent": ["error", "tab"],
+		"vue/no-v-html": "off"
+	}
+}

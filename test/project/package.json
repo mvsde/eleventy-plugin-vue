@@ -1,0 +1,9 @@
+{
+	"scripts": {
+		"dev": "eleventy --incremental --serve",
+		"build": "eleventy"
+	},
+	"dependencies": {
+		"@mvsde/eleventy-plugin-vue": "file:../.."
+	}
+}
