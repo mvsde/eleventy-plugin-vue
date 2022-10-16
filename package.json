@@ -10,9 +10,14 @@
 		"build": "rollup --config rollup.config.js",
 		"lint": "eslint \"**/*.js\"",
 		"test": "node --test test/unit",
-		"prepublish": "npm run build",
+		"prepack": "npm run build",
 		"version": "conventional-changelog --preset angular --infile CHANGELOG.md --same-file && git add CHANGELOG.md"
 	},
+	"files": [
+		"main.js",
+		"lib",
+		"dist"
+	],
 	"peerDependencies": {
 		"vue": "^3"
 	},
