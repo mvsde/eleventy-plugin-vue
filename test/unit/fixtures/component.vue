@@ -1,3 +1,6 @@
+<script setup>
+import Content from "@/test/unit/fixtures/content.vue";
+</script>
 <template>
-  <p>content</p>
+  <Content />
 </template>

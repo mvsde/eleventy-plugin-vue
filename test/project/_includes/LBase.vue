@@ -1,8 +1,8 @@
 <script setup>
 import { useCSS, useData } from '@mvsde/eleventy-plugin-vue'
 
-import CFooter from './CFooter.vue'
-import CHeader from './CHeader.vue'
+import CFooter from '@inc/CFooter.vue'
+import CHeader from '@inc/CHeader.vue'
 
 const { title } = useData()
 const css = useCSS()
